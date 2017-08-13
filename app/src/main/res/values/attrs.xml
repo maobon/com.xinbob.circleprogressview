@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- progressIndicatorView -->
+    <attr name="radius" format="integer" />
+    <attr name="primaryColor" format="color" />
+    <attr name="ringWidth" format="integer" />
+    <attr name="ringColor" format="color" />
+
+    <declare-styleable name="ProgressIndicatorView">
+        <attr name="radius" />
+        <attr name="primaryColor" />
+        <attr name="ringWidth" />
+        <attr name="ringColor" />
+    </declare-styleable>
+
+    <!-- RingProgressView -->
+    <attr name="barRadius" format="integer" />
+    <attr name="barPrimaryColor" format="color" />
+    <attr name="ringBackgroundColor" format="color" />
+    <attr name="ringProgressColor" format="color" />
+    <attr name="ringThickness" format="integer" />
+
+    <declare-styleable name="RingProgressView">
+        <attr name="barRadius" />
+        <attr name="barPrimaryColor" />
+        <attr name="ringBackgroundColor" />
+        <attr name="ringProgressColor" />
+        <attr name="ringThickness" />
+    </declare-styleable>
+</resources>

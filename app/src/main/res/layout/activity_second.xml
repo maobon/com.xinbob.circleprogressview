@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xinbob.circleprogressview.SecondActivity">
+
+    <com.xinbob.circleprogressview.custom.RingProgressView
+        android:id="@+id/ring_progress_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        app:barPrimaryColor="@color/colorPrimary"
+        app:barRadius="180"
+        app:ringBackgroundColor="@color/colorPrimaryDark"
+        app:ringProgressColor="@color/colorAccent"
+        app:ringThickness="30" />
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_setup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setup"
+        android:textAllCaps="false" />
+
+</LinearLayout>
