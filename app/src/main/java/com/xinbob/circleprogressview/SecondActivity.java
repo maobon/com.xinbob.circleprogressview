@@ -20,7 +20,6 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         final RingProgressView ringProgressView = (RingProgressView) findViewById(R.id.ring_progress_view);
-        // ringProgressView.setProgress(87);
 
 
         AppCompatSeekBar seekBar = (AppCompatSeekBar) findViewById(R.id.seekbar);
