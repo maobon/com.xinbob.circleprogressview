@@ -10,6 +10,9 @@ import android.widget.Toast;
 
 import com.xinbob.circleprogressview.custom.RingProgressView;
 
+/**
+ * 测试未闭合的环装进度指示器
+ */
 public class SecondActivity extends AppCompatActivity {
 
     private int mPercent;
