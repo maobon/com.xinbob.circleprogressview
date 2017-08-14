@@ -21,7 +21,6 @@ public class SecondActivity extends AppCompatActivity {
 
         final RingProgressView ringProgressView = (RingProgressView) findViewById(R.id.ring_progress_view);
 
-
         AppCompatSeekBar seekBar = (AppCompatSeekBar) findViewById(R.id.seekbar);
 
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
